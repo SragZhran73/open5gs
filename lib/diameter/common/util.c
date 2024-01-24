@@ -65,7 +65,7 @@ bool ogs_diam_app_connected(uint32_t app_id)
  */
 DiamId_t ogs_set_realm_from_imsi_bcd(const char * imsi_bcd) {
     DiamId_t realm = strdup(fd_g_config->cnf_diamrlm);
-
+     
     /* Get the MCC part */
     char * mcc = strstr(realm, "mcc");
     if (mcc != NULL) {
@@ -75,7 +75,12 @@ DiamId_t ogs_set_realm_from_imsi_bcd(const char * imsi_bcd) {
     /* Get the MNC part */
     char * mnc = strstr(realm, "mnc");
     if (mnc != NULL) {
-        strncpy(mnc + 4, imsi_bcd + 3, 2);
+        //if MNC is 2 digit the last elemnt in imsi_bcd will be 0x00
+        if(imsi_bcd[OGS_MAX_IMSI_BCD_LEN])
+            strncpy(mnc + 4, imsi_bcd + 3, 3);
+        else
+            strncpy(mnc + 4, imsi_bcd + 3, 2);
+
     }
 
     return realm;

@@ -102,7 +102,6 @@ static bool send_ccr_init_req_gx_gy(smf_sess_t *sess, smf_event_t *e)
         send_gtp_create_err_msg(sess, e->gtp_xact, gtp_cause);
         return false;
     }
-
     sess->sm_data.gx_ccr_init_in_flight = true;
     smf_gx_send_ccr(sess, e->gtp_xact,
         OGS_DIAM_GX_CC_REQUEST_TYPE_INITIAL_REQUEST);

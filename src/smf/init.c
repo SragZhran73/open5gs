@@ -85,9 +85,8 @@ int smf_initialize(void)
 
     thread = ogs_thread_create(smf_main, NULL);
     if (!thread) return OGS_ERROR;
-
+    
     initialized = 1;
-
     return OGS_OK;
 }
 
