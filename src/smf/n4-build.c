@@ -86,7 +86,7 @@ ogs_pkbuf_t *smf_n4_build_session_establishment_request(
     ogs_list_for_each(&sess->pfcp.pdr_list, pdr) {
         ogs_pfcp_build_create_pdr(&req->create_pdr[i], i, pdr);
 
-     if(pdr->src_if == OGS_PFCP_INTERFACE_CORE && smf_self()->sgi_nwi!=NULL) {
+     if(pdr->src_if == OGS_PFCP_INTERFACE_CORE && smf_self()->sgi_nwi != NULL) {
             const char *dnn_temp = smf_self()->sgi_nwi;
             char dnn2_temp[100+1];
             req->create_pdr[i].pdi.network_instance.len = ogs_fqdn_build(
@@ -102,7 +102,7 @@ ogs_pkbuf_t *smf_n4_build_session_establishment_request(
     ogs_list_for_each(&sess->pfcp.far_list, far) {
         ogs_pfcp_build_create_far(&req->create_far[i], i, far);
 
-        if (far->dst_if == OGS_PFCP_INTERFACE_CORE && smf_self()->sgi_nwi!=NULL) {
+        if (far->dst_if == OGS_PFCP_INTERFACE_CORE && smf_self()->sgi_nwi != NULL) {
             const char *dnn_temp = smf_self()->sgi_nwi;
             char dnn2_temp[100+1];
             req->create_far[i].forwarding_parameters.network_instance.len = ogs_fqdn_build(
