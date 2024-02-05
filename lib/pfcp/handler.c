@@ -517,7 +517,8 @@ ogs_pfcp_pdr_t *ogs_pfcp_handle_create_pdr(ogs_pfcp_sess_t *sess,
 
     if (message->pdi.network_instance.presence) {
         char dnn[OGS_MAX_DNN_LEN+1];
-
+        ogs_info("****gwa el handler**%s**", (char *)message->pdi.network_instance.data);
+        ogs_info("**message->pdi.network_instance.len = %d",message->pdi.network_instance.len);
         ogs_assert(0 < ogs_fqdn_parse(dnn,
             message->pdi.network_instance.data,
             ogs_min(message->pdi.network_instance.len, OGS_MAX_DNN_LEN)));

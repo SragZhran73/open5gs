@@ -361,6 +361,6 @@ smf:
 #      travelping upg needs nwi network instance name 
 #      to route traffic to/from sgi interface
 #
-#    sgi_nwi : sgi
+  sgi_nwi : sgi
 #
 #

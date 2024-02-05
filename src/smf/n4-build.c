@@ -83,10 +83,11 @@ ogs_pkbuf_t *smf_n4_build_session_establishment_request(
 
     /* Create PDR */
     i = 0;
+    ogs_info("*****use_upg %d**sgi_nwi = %s",smf_self()->use_upg,smf_self()->sgi_nwi);
     ogs_list_for_each(&sess->pfcp.pdr_list, pdr) {
         ogs_pfcp_build_create_pdr(&req->create_pdr[i], i, pdr);
 
-     if(pdr->src_if == OGS_PFCP_INTERFACE_CORE && smf_self()->sgi_nwi != NULL) {
+     if(pdr->src_if == OGS_PFCP_INTERFACE_CORE && smf_self()->use_upg) {
             const char *dnn_temp = smf_self()->sgi_nwi;
             char dnn2_temp[100+1];
             req->create_pdr[i].pdi.network_instance.len = ogs_fqdn_build(
@@ -102,7 +103,7 @@ ogs_pkbuf_t *smf_n4_build_session_establishment_request(
     ogs_list_for_each(&sess->pfcp.far_list, far) {
         ogs_pfcp_build_create_far(&req->create_far[i], i, far);
 
-        if (far->dst_if == OGS_PFCP_INTERFACE_CORE && smf_self()->sgi_nwi != NULL) {
+        if (far->dst_if == OGS_PFCP_INTERFACE_CORE && smf_self()->use_upg) {
             const char *dnn_temp = smf_self()->sgi_nwi;
             char dnn2_temp[100+1];
             req->create_far[i].forwarding_parameters.network_instance.len = ogs_fqdn_build(
@@ -345,15 +346,12 @@ ogs_pkbuf_t *smf_n4_build_qos_flow_to_modify_list(
     int num_of_remove_pdr = 0;
     int num_of_remove_far = 0;
     int num_of_remove_qer = 0;
-    int num_of_remove_urr = 0;
     int num_of_create_pdr = 0;
     int num_of_create_far = 0;
     int num_of_create_qer = 0;
-    int num_of_create_urr = 0;
     int num_of_update_pdr = 0;
     int num_of_update_far = 0;
     int num_of_update_qer = 0;
-    int num_of_update_urr = 0;
 
     uint64_t modify_flags = 0;
 
@@ -435,17 +433,6 @@ ogs_pkbuf_t *smf_n4_build_qos_flow_to_modify_list(
                 num_of_remove_qer++;
             }
 
-            /* Remove URR */
-            if (qos_flow->urr) {
-                ogs_pfcp_tlv_remove_urr_t *message =
-                    &req->remove_urr[num_of_remove_urr];
-
-                message->presence = 1;
-                message->urr_id.presence = 1;
-                message->urr_id.u32 = qos_flow->urr->id;
-                num_of_remove_urr++;
-            }
-
         } else {
             if (modify_flags & OGS_PFCP_MODIFY_CREATE) {
 
@@ -490,14 +477,6 @@ ogs_pkbuf_t *smf_n4_build_qos_flow_to_modify_list(
                             num_of_create_qer, qos_flow->qer);
                     num_of_create_qer++;
                 }
-
-                /* Create URR */
-                if (qos_flow->urr) {
-                    ogs_pfcp_build_create_urr(
-                            &req->create_urr[num_of_create_urr],
-                            num_of_create_urr, qos_flow->urr);
-                    num_of_create_urr++;
-                }
             }
             if (modify_flags &
                     (OGS_PFCP_MODIFY_TFT_NEW|OGS_PFCP_MODIFY_TFT_ADD|
@@ -516,12 +495,6 @@ ogs_pkbuf_t *smf_n4_build_qos_flow_to_modify_list(
                             &req->update_pdr[num_of_update_pdr],
                             num_of_update_pdr, qos_flow->ul_pdr);
                     num_of_update_pdr++;
-                }
-                if (qos_flow->urr) {
-                    ogs_pfcp_build_update_urr(
-                            &req->update_urr[num_of_update_urr],
-                            num_of_update_urr, qos_flow->urr, modify_flags);
-                    num_of_update_urr++;
                 }
             }
             if (modify_flags & OGS_PFCP_MODIFY_ACTIVATE) {
