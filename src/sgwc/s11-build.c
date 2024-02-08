@@ -69,6 +69,7 @@ ogs_pkbuf_t *sgwc_s11_build_create_session_response(
             ogs_gtp_self()->gtpc_addr, ogs_gtp_self()->gtpc_addr6,
             &sgw_s11_teid, &len);
     ogs_assert(rv == OGS_OK);
+    ogs_info("ana gwa s11***addr = %d",sgw_s11_teid.addr);
     rsp->sender_f_teid_for_control_plane.presence = 1;
     rsp->sender_f_teid_for_control_plane.data = &sgw_s11_teid;
     rsp->sender_f_teid_for_control_plane.len = len;

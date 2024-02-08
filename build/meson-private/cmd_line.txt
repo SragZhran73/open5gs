@@ -1,5 +1,6 @@
 [options]
 prefix = /home/sz/Desktop/open5gs/install
+backend = ninja
 
 [properties]
 
