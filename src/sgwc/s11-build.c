@@ -105,6 +105,8 @@ ogs_pkbuf_t *sgwc_s11_build_create_session_response(
             ul_tunnel->local_addr, ul_tunnel->local_addr6,
             &sgw_s1u_teid[i], &sgw_s1u_len[i]);
         ogs_assert(rv == OGS_OK);
+        ogs_info("****addr = %d****%d***",sgw_s1u_teid[i].addr,i);
+        ogs_info("****teid = %d****%d***",sgw_s1u_teid[i].teid,i);
         rsp->bearer_contexts_created[i].s1_u_enodeb_f_teid.presence = 1;
         rsp->bearer_contexts_created[i].s1_u_enodeb_f_teid.data =
             &sgw_s1u_teid[i];
