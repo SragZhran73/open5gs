@@ -3,7 +3,7 @@ ctgt_run_script = find_program(
   ['/usr/lib/python3/dist-packages/mesonbuild/cmake/data/run_ctgt.py'],
   required : true
 )
-cm_prom_dir = include_directories('../../../subprojects/prometheus-client-c', 'prom/src', 'prom/include', '.')
+cm_prom_dir = include_directories('prom/src', '../../../subprojects/prometheus-client-c', 'prom/include', '.')
 cm_prom_sys = include_directories(is_system : true)
 cm_prom_inc = [cm_prom_dir, cm_prom_sys]
 cm_prom_src = files(

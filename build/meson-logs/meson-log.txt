@@ -1,4 +1,4 @@
-Build started at 2024-02-07T22:00:43.976801
+Build started at 2024-02-08T16:42:48.024302
 Main binary: /usr/bin/python3
 Build Options: -Dprefix=/home/sz/Desktop/open5gs/install -Dbackend=ninja
 Python system: Linux
@@ -30,8 +30,8 @@ Program run-clang-tidy found: NO
 Program clang-tidy found: NO
 Program /usr/bin/python3 found: YES (/usr/bin/python3)
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpnocs5vvf
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpnocs5vvf/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpnocs5vvf/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wextra 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpyc7ux_o7
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpyc7ux_o7/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpyc7ux_o7/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wextra 
 
 Code:
  int i;
@@ -42,8 +42,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wextra: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmppzx9rzee
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmppzx9rzee/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmppzx9rzee/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wlogical-op 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp8l34vu0c
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp8l34vu0c/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp8l34vu0c/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wlogical-op 
 
 Code:
  int i;
@@ -54,8 +54,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wlogical-op: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp328qwajb
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp328qwajb/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp328qwajb/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=pointer-arith 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpu3znz7_t
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpu3znz7_t/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpu3znz7_t/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=pointer-arith 
 
 Code:
  int i;
@@ -66,8 +66,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=pointer-arith: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpmgws29tb
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpmgws29tb/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpmgws29tb/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=init-self 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp51w6a9q1
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp51w6a9q1/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp51w6a9q1/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=init-self 
 
 Code:
  int i;
@@ -78,8 +78,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=init-self: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpfqq71iqu
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpfqq71iqu/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpfqq71iqu/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wfloat-equal 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpumt84moy
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpumt84moy/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpumt84moy/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wfloat-equal 
 
 Code:
  int i;
@@ -90,8 +90,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wfloat-equal: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmplmakwyx7
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmplmakwyx7/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmplmakwyx7/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wsuggest-attribute=noreturn 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpltcck11z
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpltcck11z/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpltcck11z/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wsuggest-attribute=noreturn 
 
 Code:
  int i;
@@ -102,8 +102,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wsuggest-attribute=noreturn: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpekm0602y
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpekm0602y/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpekm0602y/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=missing-prototypes 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmph4x2fs5o
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmph4x2fs5o/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmph4x2fs5o/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=missing-prototypes 
 
 Code:
  int i;
@@ -114,8 +114,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=missing-prototypes: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp2ur30p3n
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp2ur30p3n/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp2ur30p3n/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=missing-declarations 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpmqeswyph
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpmqeswyph/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpmqeswyph/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=missing-declarations 
 
 Code:
  int i;
@@ -126,8 +126,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=missing-declarations: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpajfv7e1i
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpajfv7e1i/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpajfv7e1i/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpzea851wm
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpzea851wm/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpzea851wm/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration 
 
 Code:
  int i;
@@ -138,8 +138,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpdosec3du
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpdosec3du/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpdosec3du/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=return-type 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpumakrr27
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpumakrr27/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpumakrr27/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=return-type 
 
 Code:
  int i;
@@ -150,8 +150,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=return-type: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpyak3csx2
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpyak3csx2/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpyak3csx2/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=incompatible-pointer-types 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp0apqp8qg
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp0apqp8qg/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp0apqp8qg/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=incompatible-pointer-types 
 
 Code:
  int i;
@@ -162,8 +162,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=incompatible-pointer-types: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpwdyv2uae
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpwdyv2uae/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpwdyv2uae/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=format=2 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpdq70ypwi
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpdq70ypwi/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpdq70ypwi/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=format=2 
 
 Code:
  int i;
@@ -174,8 +174,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=format=2: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp0zhna22t
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp0zhna22t/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp0zhna22t/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp1lpi0bsc
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp1lpi0bsc/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp1lpi0bsc/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes 
 
 Code:
  int i;
@@ -186,8 +186,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wstrict-prototypes: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpztt1z74_
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpztt1z74_/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpztt1z74_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wredundant-decls 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmptkqxks4g
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmptkqxks4g/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmptkqxks4g/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wredundant-decls 
 
 Code:
  int i;
@@ -198,8 +198,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wredundant-decls: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpryd2prb9
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpryd2prb9/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpryd2prb9/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wimplicit-fallthrough=5 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmprs10gxdp
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmprs10gxdp/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmprs10gxdp/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wimplicit-fallthrough=5 
 
 Code:
  int i;
@@ -210,8 +210,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wimplicit-fallthrough=5: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpej25ul26
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpej25ul26/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpej25ul26/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wendif-labels 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpip5b4v0t
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpip5b4v0t/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpip5b4v0t/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wendif-labels 
 
 Code:
  int i;
@@ -222,8 +222,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wendif-labels: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpcv1x9hk4
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpcv1x9hk4/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpcv1x9hk4/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-aliasing=3 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmps1m119yo
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmps1m119yo/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmps1m119yo/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-aliasing=3 
 
 Code:
  int i;
@@ -234,8 +234,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wstrict-aliasing=3: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpok29mv4d
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpok29mv4d/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpok29mv4d/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wwrite-strings 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpcxpepum8
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpcxpepum8/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpcxpepum8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wwrite-strings 
 
 Code:
  int i;
@@ -246,8 +246,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wwrite-strings: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpyd76u8bj
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpyd76u8bj/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpyd76u8bj/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=overflow 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp0d7adv4d
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp0d7adv4d/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp0d7adv4d/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=overflow 
 
 Code:
  int i;
@@ -258,8 +258,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=overflow: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpbty0tjg0
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpbty0tjg0/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpbty0tjg0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=shift-count-overflow 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmph6lyazot
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmph6lyazot/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmph6lyazot/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=shift-count-overflow 
 
 Code:
  int i;
@@ -270,8 +270,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=shift-count-overflow: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpzznua5yu
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpzznua5yu/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpzznua5yu/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=shift-overflow=2 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpwace44py
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpwace44py/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpwace44py/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=shift-overflow=2 
 
 Code:
  int i;
@@ -282,8 +282,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=shift-overflow=2: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp3jif6oll
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp3jif6oll/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp3jif6oll/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wdate-time 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpig3r6a9j
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpig3r6a9j/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpig3r6a9j/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wdate-time 
 
 Code:
  int i;
@@ -294,8 +294,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wdate-time: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpugmspuki
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpugmspuki/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpugmspuki/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wnested-externs 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp3f9dnrto
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp3f9dnrto/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp3f9dnrto/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wnested-externs 
 
 Code:
  int i;
@@ -306,8 +306,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wnested-externs: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpjq4cyr2b
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpjq4cyr2b/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpjq4cyr2b/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpagvrm_mi
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpagvrm_mi/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpagvrm_mi/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused 
 
 Code:
  int i;
@@ -318,8 +318,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wunused: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmphwph7zkv
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmphwph7zkv/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmphwph7zkv/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wduplicated-branches 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpskpfb84r
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpskpfb84r/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpskpfb84r/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wduplicated-branches 
 
 Code:
  int i;
@@ -330,8 +330,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wduplicated-branches: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpzbz0xzj4
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpzbz0xzj4/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpzbz0xzj4/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmisleading-indentation 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp15jbqgjr
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp15jbqgjr/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp15jbqgjr/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmisleading-indentation 
 
 Code:
  int i;
@@ -342,8 +342,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wmisleading-indentation: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp8wfx0jqm
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp8wfx0jqm/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp8wfx0jqm/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-sign-compare -Wsign-compare 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpbuqf4tkg
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpbuqf4tkg/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpbuqf4tkg/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-sign-compare -Wsign-compare 
 
 Code:
  int i;
@@ -354,8 +354,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-sign-compare -Wsign-compare: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpjewi0pc3
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpjewi0pc3/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpjewi0pc3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpry9ockv9
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpry9ockv9/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpry9ockv9/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
 
 Code:
  int i;
@@ -366,8 +366,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp89pgk3yh
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp89pgk3yh/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp89pgk3yh/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -ffast-math 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp5rgyr2ly
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp5rgyr2ly/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp5rgyr2ly/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -ffast-math 
 
 Code:
  int i;
@@ -378,8 +378,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -ffast-math: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpp2btcpuh
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpp2btcpuh/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpp2btcpuh/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fdiagnostics-show-option 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmputqom0ek
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmputqom0ek/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmputqom0ek/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fdiagnostics-show-option 
 
 Code:
  int i;
@@ -390,8 +390,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -fdiagnostics-show-option: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpeya44p73
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpeya44p73/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpeya44p73/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fstack-protector 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp_v363nph
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp_v363nph/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp_v363nph/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fstack-protector 
 
 Code:
  int i;
@@ -402,8 +402,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -fstack-protector: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmptoae0tpu
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmptoae0tpu/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmptoae0tpu/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fstack-protector-strong 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp5eo2kvwf
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp5eo2kvwf/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp5eo2kvwf/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fstack-protector-strong 
 
 Code:
  int i;
@@ -414,8 +414,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -fstack-protector-strong: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpm800pkba
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpm800pkba/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpm800pkba/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --param=ssp-buffer-size=4 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpxejgw_qp
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpxejgw_qp/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpxejgw_qp/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --param=ssp-buffer-size=4 
 
 Code:
  int i;
@@ -1710,8 +1710,8 @@ Cached compiler stderr:
  
 Checking if "strerror_r() returns char *" compiles: YES (cached)
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpo803jwzx
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpo803jwzx/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpo803jwzx/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lexecinfo -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpo0_foey4
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpo0_foey4/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpo0_foey4/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lexecinfo -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(void) { return 0; }
@@ -1722,8 +1722,8 @@ Compiler stderr:
 collect2: error: ld returned 1 exit status
 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp5g9a_niz
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp5g9a_niz/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp5g9a_niz/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmphxdm0f0b
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmphxdm0f0b/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmphxdm0f0b/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
 
 Code:
  #include<stdio.h>
@@ -1744,8 +1744,8 @@ Program stderr:
 
 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpjnuygj8a
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpjnuygj8a/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpjnuygj8a/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpjjwfjuha
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpjjwfjuha/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpjjwfjuha/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
 
 Code:
  
@@ -1816,8 +1816,8 @@ Cached compiler stderr:
  
 Checking if "eventfd(2) system call" links: YES (cached)
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpi07y4ww2
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpi07y4ww2/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpi07y4ww2/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lsocket -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpboochu0c
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpboochu0c/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpboochu0c/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lsocket -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(void) { return 0; }
@@ -1846,8 +1846,8 @@ Configuring core-config-private.h using configuration
 Configuring core-config.h using configuration
 Dependency talloc found: YES 2.3.3 (cached)
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpeft_ucth
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpeft_ucth/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpeft_ucth/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-shift-negative-value -Wshift-negative-value 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpn1k8xrcd
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpn1k8xrcd/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpn1k8xrcd/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-shift-negative-value -Wshift-negative-value 
 
 Code:
  int i;
@@ -1858,8 +1858,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-shift-negative-value -Wshift-negative-value: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpzhixxhxf
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpzhixxhxf/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpzhixxhxf/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-but-set-variable -Wunused-but-set-variable 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpuoenz2iv
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpuoenz2iv/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpuoenz2iv/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-but-set-variable -Wunused-but-set-variable 
 
 Code:
  int i;
@@ -1870,8 +1870,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-unused-but-set-variable -Wunused-but-set-variable: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmplxy_yylm
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmplxy_yylm/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmplxy_yylm/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unknown-warning-option -Wunknown-warning-option 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpxpddngsb
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpxpddngsb/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpxpddngsb/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unknown-warning-option -Wunknown-warning-option 
 
 Code:
  int i;
@@ -1883,8 +1883,8 @@ Compiler stderr:
 
 Compiler for C supports arguments -Wno-unknown-warning-option -Wunknown-warning-option: NO 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpsmc7mphe
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpsmc7mphe/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpsmc7mphe/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-prototypes -Wmissing-prototypes 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp67pjg_0f
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp67pjg_0f/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp67pjg_0f/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-prototypes -Wmissing-prototypes 
 
 Code:
  int i;
@@ -1895,8 +1895,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-missing-prototypes -Wmissing-prototypes: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpgjwoncj0
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpgjwoncj0/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpgjwoncj0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-declarations -Wmissing-declarations 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpw2eera93
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpw2eera93/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpw2eera93/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-declarations -Wmissing-declarations 
 
 Code:
  int i;
@@ -1907,8 +1907,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-missing-declarations -Wmissing-declarations: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp2r8ss8i0
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp2r8ss8i0/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp2r8ss8i0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-discarded-qualifiers -Wdiscarded-qualifiers 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp8knouofy
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp8knouofy/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp8knouofy/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-discarded-qualifiers -Wdiscarded-qualifiers 
 
 Code:
  int i;
@@ -1919,8 +1919,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-discarded-qualifiers -Wdiscarded-qualifiers: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpsmk8_p5o
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpsmk8_p5o/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpsmk8_p5o/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-redundant-decls -Wredundant-decls 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpl6x8txkv
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpl6x8txkv/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpl6x8txkv/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-redundant-decls -Wredundant-decls 
 
 Code:
  int i;
@@ -1931,8 +1931,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-redundant-decls -Wredundant-decls: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpku38fy1t
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpku38fy1t/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpku38fy1t/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-shift-overflow -Wshift-overflow 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpis5ywos_
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpis5ywos_/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpis5ywos_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-shift-overflow -Wshift-overflow 
 
 Code:
  int i;
@@ -1943,8 +1943,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-shift-overflow -Wshift-overflow: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp9533slij
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp9533slij/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp9533slij/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-float-equal -Wfloat-equal 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpj_j19x8t
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpj_j19x8t/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpj_j19x8t/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-float-equal -Wfloat-equal 
 
 Code:
  int i;
@@ -1955,8 +1955,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-float-equal -Wfloat-equal: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpb6wapyf8
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpb6wapyf8/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpb6wapyf8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-implicit-fallthrough -Wimplicit-fallthrough 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpmpw931j8
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpmpw931j8/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpmpw931j8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-implicit-fallthrough -Wimplicit-fallthrough 
 
 Code:
  int i;
@@ -1967,8 +1967,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-implicit-fallthrough -Wimplicit-fallthrough: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpo7ile2rp
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpo7ile2rp/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpo7ile2rp/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-incompatible-pointer-types-discards-qualifiers -Wincompatible-pointer-types-discards-qualifiers 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpim2j6k32
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpim2j6k32/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpim2j6k32/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-incompatible-pointer-types-discards-qualifiers -Wincompatible-pointer-types-discards-qualifiers 
 
 Code:
  int i;
@@ -1980,8 +1980,8 @@ Compiler stderr:
 
 Compiler for C supports arguments -Wno-incompatible-pointer-types-discards-qualifiers -Wincompatible-pointer-types-discards-qualifiers: NO 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp4l_d82ka
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp4l_d82ka/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp4l_d82ka/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-nonliteral -Wformat-nonliteral 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmprqmjtii1
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmprqmjtii1/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmprqmjtii1/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-nonliteral -Wformat-nonliteral 
 
 Code:
  int i;
@@ -1992,8 +1992,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-format-nonliteral -Wformat-nonliteral: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpq6il_5ep
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpq6il_5ep/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpq6il_5ep/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-cpp -Wcpp 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp6fac11m_
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp6fac11m_/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp6fac11m_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-cpp -Wcpp 
 
 Code:
  int i;
@@ -2086,8 +2086,8 @@ Cached compiler stderr:
  
 Has header "netinet/sctp.h" : YES (cached)
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpcwph4an1
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpcwph4an1/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpcwph4an1/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lsctp -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp6pujmr9l
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp6pujmr9l/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp6pujmr9l/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lsctp -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(void) { return 0; }
@@ -2110,8 +2110,8 @@ C linker for the host machine: cc ld.bfd 2.34
 Program flex found: YES (/usr/bin/flex)
 Program bison found: YES (/usr/bin/bison)
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmptmigqcd7
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmptmigqcd7/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmptmigqcd7/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpr1frpd_i
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpr1frpd_i/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpr1frpd_i/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror 
 
 Code:
  int i;
@@ -2122,8 +2122,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpua2zlgqk
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpua2zlgqk/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpua2zlgqk/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-variable -Wunused-variable 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpu3yx1are
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpu3yx1are/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpu3yx1are/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-variable -Wunused-variable 
 
 Code:
  int i;
@@ -2134,8 +2134,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-unused-variable -Wunused-variable: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmptpftkr3n
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmptpftkr3n/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmptpftkr3n/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-but-set-variable -Wunused-but-set-variable 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp2tyg4zg4
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp2tyg4zg4/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp2tyg4zg4/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-but-set-variable -Wunused-but-set-variable 
 
 Code:
  int i;
@@ -2146,8 +2146,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-unused-but-set-variable -Wunused-but-set-variable: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpbsxgphpg
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpbsxgphpg/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpbsxgphpg/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-maybe-uninitialized -Wmaybe-uninitialized 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpqirwgrw_
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpqirwgrw_/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpqirwgrw_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-maybe-uninitialized -Wmaybe-uninitialized 
 
 Code:
  int i;
@@ -2158,8 +2158,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-maybe-uninitialized -Wmaybe-uninitialized: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp6vzotjpu
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp6vzotjpu/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp6vzotjpu/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-truncation -Wformat-truncation 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpjy091xt0
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpjy091xt0/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpjy091xt0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-truncation -Wformat-truncation 
 
 Code:
  int i;
@@ -2170,8 +2170,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-format-truncation -Wformat-truncation: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpa9p3_qii
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpa9p3_qii/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpa9p3_qii/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-stringop-truncation -Wstringop-truncation 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmphyaov590
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmphyaov590/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmphyaov590/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-stringop-truncation -Wstringop-truncation 
 
 Code:
  int i;
@@ -2426,8 +2426,8 @@ Cached compiler stderr:
  
 Checking if "dlopen() and dlsym() in libdl" links: YES (cached)
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpe7wm_vkh
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpe7wm_vkh/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpe7wm_vkh/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -ldl -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpp68puwfx
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpp68puwfx/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpp68puwfx/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -ldl -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(void) { return 0; }
@@ -2437,8 +2437,8 @@ Compiler stderr:
  
 Library dl found: YES
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmptynotoob
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmptynotoob/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmptynotoob/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lgcrypt -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp64f9txdw
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp64f9txdw/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp64f9txdw/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lgcrypt -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(void) { return 0; }
@@ -2448,8 +2448,8 @@ Compiler stderr:
  
 Library gcrypt found: YES
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpnvoy6a5d
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpnvoy6a5d/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpnvoy6a5d/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lidn -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpclguyyhw
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpclguyyhw/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpclguyyhw/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lidn -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(void) { return 0; }
@@ -2459,8 +2459,8 @@ Compiler stderr:
  
 Library idn found: YES
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpnwwh1i7i
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpnwwh1i7i/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpnwwh1i7i/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lgnutls -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpejp4m8sd
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpejp4m8sd/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpejp4m8sd/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lgnutls -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(void) { return 0; }
@@ -2598,8 +2598,8 @@ Build targets in project: 20
 Subproject freeDiameter finished.
 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpyjwpa2pz
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpyjwpa2pz/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpyjwpa2pz/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-prototypes -Wmissing-prototypes 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmprdinx6c6
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmprdinx6c6/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmprdinx6c6/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-prototypes -Wmissing-prototypes 
 
 Code:
  int i;
@@ -2610,8 +2610,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-missing-prototypes -Wmissing-prototypes: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp70ggh03s
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp70ggh03s/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp70ggh03s/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-declarations -Wmissing-declarations 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmptu19wpfu
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmptu19wpfu/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmptu19wpfu/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-declarations -Wmissing-declarations 
 
 Code:
  int i;
@@ -2622,8 +2622,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-missing-declarations -Wmissing-declarations: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp_rh2j5l6
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp_rh2j5l6/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp_rh2j5l6/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-discarded-qualifiers -Wdiscarded-qualifiers 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpqt9ra1_h
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpqt9ra1_h/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpqt9ra1_h/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-discarded-qualifiers -Wdiscarded-qualifiers 
 
 Code:
  int i;
@@ -2634,8 +2634,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-discarded-qualifiers -Wdiscarded-qualifiers: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpmdkorq8w
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpmdkorq8w/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpmdkorq8w/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-incompatible-pointer-types -Wincompatible-pointer-types 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpy5opw0u1
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpy5opw0u1/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpy5opw0u1/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-incompatible-pointer-types -Wincompatible-pointer-types 
 
 Code:
  int i;
@@ -2646,8 +2646,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-incompatible-pointer-types -Wincompatible-pointer-types: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp7zvt5e48
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp7zvt5e48/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp7zvt5e48/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-prototypes -Wstrict-prototypes 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpmlt32cp2
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpmlt32cp2/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpmlt32cp2/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-prototypes -Wstrict-prototypes 
 
 Code:
  int i;
@@ -2658,8 +2658,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-strict-prototypes -Wstrict-prototypes: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpq5ihoy0d
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpq5ihoy0d/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpq5ihoy0d/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -w 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpn70_76ag
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpn70_76ag/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpn70_76ag/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -w 
 
 Code:
  int i;
@@ -2670,8 +2670,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -w: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmplfucwv57
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmplfucwv57/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmplfucwv57/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpmqxngoxo
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpmqxngoxo/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpmqxngoxo/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
 
 Code:
  int i;
@@ -2751,8 +2751,8 @@ Cached compiler stderr:
 Has header "netinet/tcp.h" : YES (cached)
 Configuring pfcp-config.h using configuration
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpk4_ll50b
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpk4_ll50b/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpk4_ll50b/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-prototypes -Wstrict-prototypes 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpiqoeq189
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpiqoeq189/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpiqoeq189/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-prototypes -Wstrict-prototypes 
 
 Code:
  int i;
@@ -2763,8 +2763,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-strict-prototypes -Wstrict-prototypes: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmphwlgmxob
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmphwlgmxob/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmphwlgmxob/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-prototypes -Wmissing-prototypes 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpa9zla026
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpa9zla026/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpa9zla026/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-prototypes -Wmissing-prototypes 
 
 Code:
  int i;
@@ -2775,8 +2775,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-missing-prototypes -Wmissing-prototypes: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpoavojzjs
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpoavojzjs/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpoavojzjs/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-declarations -Wmissing-declarations 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpyuqr6pv_
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpyuqr6pv_/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpyuqr6pv_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-declarations -Wmissing-declarations 
 
 Code:
  int i;
@@ -2787,8 +2787,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-missing-declarations -Wmissing-declarations: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpj1_tevo3
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpj1_tevo3/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpj1_tevo3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-variable -Wunused-variable 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpvgfgo83q
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpvgfgo83q/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpvgfgo83q/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-variable -Wunused-variable 
 
 Code:
  int i;
@@ -2799,8 +2799,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-unused-variable -Wunused-variable: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpdbp40zoy
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpdbp40zoy/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpdbp40zoy/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-label -Wunused-label 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpd0aq3nhf
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpd0aq3nhf/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpd0aq3nhf/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-label -Wunused-label 
 
 Code:
  int i;
@@ -2811,8 +2811,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-unused-label -Wunused-label: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp16fb2hud
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp16fb2hud/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp16fb2hud/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-float-equal -Wfloat-equal 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp_f7rfqr4
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp_f7rfqr4/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp_f7rfqr4/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-float-equal -Wfloat-equal 
 
 Code:
  int i;
@@ -2830,7 +2830,7 @@ Dependency libmicrohttpd found: YES 0.9.66 (cached)
 Dependency libcurl found: YES 7.68.0 (cached)
 Running command: /usr/bin/git describe --abbrev=7 --dirty=+
 --- stdout ---
-v2.6.6-3-gfa58c47+
+v2.6.6-4-gbbe1c79+
 
 --- stderr ---
 
@@ -3116,8 +3116,8 @@ Has header "netinet/icmp6.h" : YES (cached)
 Configuring smf-config.h using configuration
 Configuring open5gs-dbctl using configuration
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp87r11gej
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp87r11gej/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp87r11gej/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-prototypes -Wmissing-prototypes 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpbmuyk95d
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpbmuyk95d/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpbmuyk95d/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-prototypes -Wmissing-prototypes 
 
 Code:
  int i;
@@ -3128,8 +3128,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-missing-prototypes -Wmissing-prototypes: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp_k0e6vl8
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp_k0e6vl8/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp_k0e6vl8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-declarations -Wmissing-declarations 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpp_aydjbd
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpp_aydjbd/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpp_aydjbd/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-declarations -Wmissing-declarations 
 
 Code:
  int i;
@@ -3140,8 +3140,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-missing-declarations -Wmissing-declarations: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp1jkq46ea
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp1jkq46ea/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp1jkq46ea/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-discarded-qualifiers -Wdiscarded-qualifiers 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp87q33cfl
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp87q33cfl/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp87q33cfl/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-discarded-qualifiers -Wdiscarded-qualifiers 
 
 Code:
  int i;
@@ -3152,8 +3152,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-discarded-qualifiers -Wdiscarded-qualifiers: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpl463f42l
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpl463f42l/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpl463f42l/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-incompatible-pointer-types -Wincompatible-pointer-types 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmprrkw5mnp
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmprrkw5mnp/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmprrkw5mnp/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-incompatible-pointer-types -Wincompatible-pointer-types 
 
 Code:
  int i;
@@ -3164,8 +3164,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-incompatible-pointer-types -Wincompatible-pointer-types: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmphd3apnwn
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmphd3apnwn/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmphd3apnwn/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-variable -Wunused-variable 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmpfwmp1lnt
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmpfwmp1lnt/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmpfwmp1lnt/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-variable -Wunused-variable 
 
 Code:
  int i;
@@ -3176,8 +3176,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-unused-variable -Wunused-variable: YES 
 Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp8cfq6q7n
-Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp8cfq6q7n/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp8cfq6q7n/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-deprecated-declarations -Wdeprecated-declarations 
+Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmp9ucl3cv2
+Command line:  cc /home/sz/Desktop/open5gs/build/meson-private/tmp9ucl3cv2/testfile.c -o /home/sz/Desktop/open5gs/build/meson-private/tmp9ucl3cv2/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-deprecated-declarations -Wdeprecated-declarations 
 
 Code:
  int i;
@@ -3224,16 +3224,3 @@ open5gs 2.6.6
     prometheus-client-c: YES
 
 Found ninja-1.10.0 at /usr/bin/ninja
-Running compile:
-Working directory:  /home/sz/Desktop/open5gs/build/meson-private/tmprc5ojh1t
-Command line:  c++ /home/sz/Desktop/open5gs/build/meson-private/tmprc5ojh1t/testfile.cpp -o /home/sz/Desktop/open5gs/build/meson-private/tmprc5ojh1t/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
-
-Code:
- 
-Compiler stdout:
- install: /usr/lib/gcc/x86_64-linux-gnu/9/
-programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
-libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-
-Compiler stderr:
- 
