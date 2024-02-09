@@ -141,7 +141,7 @@ void sgwc_s11_handle_create_session_request(
 {
     int i;
     uint8_t cause_value = 0;
-
+    ogs_info("***001****");
     sgwc_sess_t *sess = NULL;
     sgwc_bearer_t *bearer = NULL;
 
@@ -367,8 +367,10 @@ void sgwc_s11_handle_create_session_request(
     /* Receive Control Plane(DL) : MME-S11 */
     mme_s11_teid = req->sender_f_teid_for_control_plane.data;
     ogs_assert(mme_s11_teid);
+    ogs_info("**mme_s11_teid**addr = %d****%x***",mme_s11_teid->addr,mme_s11_teid->addr);
+    ogs_info("**mme_s11_teid**teid = %d****%x***",mme_s11_teid->teid,mme_s11_teid->teid);
     sgwc_ue->mme_s11_teid = be32toh(mme_s11_teid->teid);
-
+    ogs_info("**mme_s11_teid*be32toh*teid = %d****%x***",sgwc_ue->mme_s11_teid,sgwc_ue->mme_s11_teid);
     /* Receive Control Plane(UL) : PGW-S5C */
     pgw_s5c_teid = req->pgw_s5_s8_address_for_control_plane_or_pmip.data;
     ogs_assert(pgw_s5c_teid);
@@ -389,7 +391,7 @@ void sgwc_s11_handle_modify_bearer_request(
     int i = 0;
     uint16_t decoded;
     uint8_t cause_value = 0;
-
+    ogs_info("***002****");
     OGS_LIST(pfcp_xact_list);
     ogs_pfcp_xact_t *pfcp_xact = NULL;
 
@@ -575,7 +577,7 @@ void sgwc_s11_handle_delete_session_request(
     ogs_gtp_xact_t *s5c_xact = NULL;
     ogs_gtp2_delete_session_request_t *req = NULL;
     ogs_gtp2_indication_t *indication = NULL;
-
+    ogs_info("***003****");
     ogs_assert(s11_xact);
     ogs_assert(gtpbuf);
     ogs_assert(message);
@@ -687,7 +689,7 @@ void sgwc_s11_handle_create_bearer_response(
     ogs_gtp2_cause_t *cause = NULL;
     uint8_t cause_value;
     uint16_t decoded;
-
+    ogs_info("***004****");
     sgwc_sess_t *sess = NULL;
     sgwc_bearer_t *bearer = NULL;
     sgwc_tunnel_t *dl_tunnel = NULL, *ul_tunnel = NULL;
@@ -864,7 +866,7 @@ void sgwc_s11_handle_update_bearer_response(
     sgwc_sess_t *sess = NULL;
     sgwc_bearer_t *bearer = NULL;
     ogs_gtp2_update_bearer_response_t *rsp = NULL;
-
+    ogs_info("**5***");
     ogs_assert(sgwc_ue);
     ogs_assert(message);
     rsp = &message->update_bearer_response;
@@ -983,7 +985,7 @@ void sgwc_s11_handle_delete_bearer_response(
     int rv;
     uint8_t cause_value;
     ogs_gtp_xact_t *s5c_xact = NULL;
-
+    ogs_info("***006****");
     sgwc_sess_t *sess = NULL;
     sgwc_bearer_t *bearer = NULL;
     ogs_gtp2_delete_bearer_response_t *rsp = NULL;
@@ -1110,7 +1112,7 @@ void sgwc_s11_handle_release_access_bearers_request(
     uint8_t cause_value;
 
     ogs_gtp2_release_access_bearers_request_t *req = NULL;
-
+    ogs_info("***007****");
     ogs_assert(s11_xact);
     ogs_assert(message);
     req = &message->release_access_bearers_request;
@@ -1158,7 +1160,7 @@ void sgwc_s11_handle_downlink_data_notification_ack(
 {
     int rv;
     uint8_t cause_value;
-
+    ogs_info("***007****");
     sgwc_bearer_t *bearer = NULL;
     sgwc_sess_t *sess = NULL;
 
@@ -1208,7 +1210,7 @@ void sgwc_s11_handle_create_indirect_data_forwarding_tunnel_request(
         ogs_pkbuf_t *gtpbuf, ogs_gtp2_message_t *message)
 {
     int rv, i;
-
+    ogs_info("***008****");
     sgwc_sess_t *sess = NULL;
     sgwc_bearer_t *bearer = NULL;
     sgwc_tunnel_t *tunnel = NULL;
@@ -1353,7 +1355,7 @@ void sgwc_s11_handle_delete_indirect_data_forwarding_tunnel_request(
     uint8_t cause_value = 0;
 
     ogs_assert(s11_xact);
-
+    ogs_info("***009****");
     ogs_debug("Delete Indirect Data Forwarding Tunnel Request");
 
     /************************
@@ -1398,7 +1400,7 @@ void sgwc_s11_handle_bearer_resource_command(
     int rv;
     ogs_pkbuf_t *pkbuf = NULL;
     ogs_gtp2_bearer_resource_command_t *cmd = NULL;
-
+    ogs_info("***010****");
     uint8_t cause_value = 0;
     ogs_gtp_xact_t *s5c_xact = NULL;
 
