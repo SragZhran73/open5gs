@@ -796,7 +796,8 @@ void sgwc_s11_handle_create_bearer_response(
     /* Correlate with SGW-S1U-TEID */
     sgw_s1u_teid = rsp->bearer_contexts.s4_u_sgsn_f_teid.data;
     ogs_assert(sgw_s1u_teid);
-
+    ogs_info("**s11-handler**addr = %d****%x***",sgw_s1u_teid->addr,sgw_s1u_teid->addr);
+    ogs_info("**s11-handler**teid = %d****%x***",sgw_s1u_teid->teid,sgw_s1u_teid->teid);
     /* Find the Tunnel by SGW-S1U-TEID */
     ul_tunnel = sgwc_tunnel_find_by_teid(sgwc_ue, be32toh(sgw_s1u_teid->teid));
     ogs_assert(ul_tunnel);
