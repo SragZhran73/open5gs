@@ -385,7 +385,7 @@ void sgwc_s11_handle_create_session_request(
 }
 
 void sgwc_s11_handle_modify_bearer_request(
-        sgw.cc_ue_t *sgwc_ue, ogs_gtp_xact_t *s11_xact,
+        sgwc_ue_t *sgwc_ue, ogs_gtp_xact_t *s11_xact,
         ogs_pkbuf_t *gtpbuf, ogs_gtp2_message_t *message)
 {
     int i = 0;
@@ -499,7 +499,8 @@ void sgwc_s11_handle_modify_bearer_request(
         dl_tunnel->remote_teid = be32toh(enb_s1u_teid->teid);
 
         ogs_info("**enb_s1u_teid**addr = %d****%x***",enb_s1u_teid->addr,enb_s1u_teid->addr);
-        
+        ogs_info("**sgwc_ue->sgw_s11_teid**addr = %d****%x***",sgwc_ue->sgw_s11_teid,sgwc_ue->sgw_s11_teid);
+
         ogs_assert(OGS_OK == ogs_gtp2_f_teid_to_ip(enb_s1u_teid, &remote_ip));
 
         memset(&zero_ip, 0, sizeof(ogs_ip_t));
@@ -1402,7 +1403,7 @@ void sgwc_s11_handle_bearer_resource_command(
     int rv;
     ogs_pkbuf_t *pkbuf = NULL;
     ogs_gtp2_bearer_resource_command_t *cmd = NULL;
-    ogs_info("***010****");
+    ogs_info("***0****");
     uint8_t cause_value = 0;
     ogs_gtp_xact_t *s5c_xact = NULL;
 
