@@ -416,6 +416,7 @@ void sgwc_s5c_handle_modify_bearer_response(
         sess->sgw_s5c_teid, sess->pgw_s5c_teid);
 
     if (modify_action == OGS_GTP_MODIFY_IN_PATH_SWITCH_REQUEST) {
+        ogs_info("***ana gwa s5c.handdler.c");
         ogs_assert(OGS_OK ==
             sgwc_gtp_send_create_session_response(sess, s11_xact));
     } else {

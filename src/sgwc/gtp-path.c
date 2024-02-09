@@ -183,7 +183,8 @@ int sgwc_gtp_send_create_session_response(
     memset(&h, 0, sizeof(ogs_gtp2_header_t));
     h.type = OGS_GTP2_CREATE_SESSION_RESPONSE_TYPE;
     h.teid = sgwc_ue->mme_s11_teid;
-
+    ogs_info("**GTP-paath.c***sgwu_sxa_seid=%lu",sess->sgwu_sxa_seid);
+    ogs_info("**GTP-paath.c***sgwc_sxa_seid=%lu",sess->sgwc_sxa_seid);
     pkbuf = sgwc_s11_build_create_session_response(h.type, sess);
     if (!pkbuf) {
         ogs_error("sgwc_s11_build_create_session_response() failed");
