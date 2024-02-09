@@ -385,7 +385,7 @@ void sgwc_s11_handle_create_session_request(
 }
 
 void sgwc_s11_handle_modify_bearer_request(
-        sgwc_ue_t *sgwc_ue, ogs_gtp_xact_t *s11_xact,
+        sgw.cc_ue_t *sgwc_ue, ogs_gtp_xact_t *s11_xact,
         ogs_pkbuf_t *gtpbuf, ogs_gtp2_message_t *message)
 {
     int i = 0;
@@ -498,6 +498,8 @@ void sgwc_s11_handle_modify_bearer_request(
             req->bearer_contexts_to_be_modified[i].s1_u_enodeb_f_teid.data;
         dl_tunnel->remote_teid = be32toh(enb_s1u_teid->teid);
 
+        ogs_info("**enb_s1u_teid**addr = %d****%x***",enb_s1u_teid->addr,enb_s1u_teid->addr);
+        
         ogs_assert(OGS_OK == ogs_gtp2_f_teid_to_ip(enb_s1u_teid, &remote_ip));
 
         memset(&zero_ip, 0, sizeof(ogs_ip_t));
