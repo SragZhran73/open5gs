@@ -33,7 +33,7 @@ int sgwc_initialize(void)
 
     ogs_gtp_context_init(ogs_app()->pool.nf * OGS_MAX_NUM_OF_GTPU_RESOURCE);
     ogs_pfcp_context_init();
-
+    ogs_info("***sgwc init");
     sgwc_context_init();
     sgwc_event_init();
 
