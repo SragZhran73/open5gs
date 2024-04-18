@@ -65,6 +65,8 @@ bool ogs_diam_app_connected(uint32_t app_id)
 DiamId_t ogs_set_realm_from_imsi_bcd(const char * imsi_bcd) {
     DiamId_t realm = strdup(fd_g_config->cnf_diamrlm);
 
+    ogs_info("***the reamlm= %s  *** \n",realm);
+    ogs_info("***the imsi_bcd before = %s  ***\n",imsi_bcd);
     /* Get the MCC part */
     char * mcc = strstr(realm, "mcc");
     if (mcc != NULL) {
@@ -80,6 +82,7 @@ DiamId_t ogs_set_realm_from_imsi_bcd(const char * imsi_bcd) {
         else
             strncpy(mnc + 4, imsi_bcd + 3, 2);
     }
+    ogs_info("***the imsi_bcd after = %s  ***\n",imsi_bcd);
 
     return realm;
 }
