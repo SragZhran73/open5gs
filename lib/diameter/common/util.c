@@ -86,7 +86,7 @@ DiamId_t ogs_set_realm_from_imsi_bcd(const char * imsi_bcd) {
     
         else
         {
-          ogs_info("***ana false %s  *** \n",imsi_bcd[OGS_MAX_IMSI_BCD_LEN]);
+          ogs_info("***ana false %c  *** \n",imsi_bcd[OGS_MAX_IMSI_BCD_LEN]);
             strncpy(mnc + 3, imsi_bcd + 3, 3);
         }
     }
