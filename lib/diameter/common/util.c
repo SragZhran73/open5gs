@@ -65,6 +65,7 @@ bool ogs_diam_app_connected(uint32_t app_id)
 DiamId_t ogs_set_realm_from_imsi_bcd(const char * imsi_bcd) {
     DiamId_t realm = strdup(fd_g_config->cnf_diamrlm);
     /* Get the MCC part */
+    ogs_info("***realm before %s  *** \n",realm);
     char * mcc = strstr(realm, "mcc");
     if (mcc != NULL) {
         strncpy(mcc + 3, imsi_bcd, 3);
@@ -75,18 +76,16 @@ DiamId_t ogs_set_realm_from_imsi_bcd(const char * imsi_bcd) {
         //if MNC is 2 digit the last elemnt in imsi_bcd will be 0x00
         if(imsi_bcd[OGS_MAX_IMSI_BCD_LEN])
         {
-          ogs_info("***abl ele a5er %c  *** \n",imsi_bcd[OGS_MAX_IMSI_BCD_LEN -1]);
           ogs_info("***ana true  %c*** \n",imsi_bcd[OGS_MAX_IMSI_BCD_LEN]);
             strncpy(mnc + 3, imsi_bcd + 3, 3);
         }  
         else
         {
-          ogs_info("***abl ele a5er %c  *** \n",imsi_bcd[OGS_MAX_IMSI_BCD_LEN -1]);
           ogs_info("***ana false %c  *** \n",imsi_bcd[OGS_MAX_IMSI_BCD_LEN]);
             strncpy(mnc + 4, imsi_bcd + 3, 2);
         }
     }
      
-
+     ogs_info("***realm after %s  *** \n",realm);
     return realm;
 }
