@@ -729,7 +729,7 @@ void mme_s6a_send_air(mme_ue_t *mme_ue,
     else {
         ogs_info("**mme-fd**FALSE__mnc=2**\n");
     }
-    DiamId_t dest_realm = ogs_set_realm_from_imsi_bcd(mme_ue->imsi_bcd,2);
+    DiamId_t dest_realm = ogs_set_realm_from_imsi_bcd(mme_ue->imsi_bcd,3);
     ret = fd_msg_avp_new(ogs_diam_destination_realm, 0, &avp);
     ogs_assert(ret == 0);
     val.os.data = (unsigned char *)(dest_realm);
@@ -1139,7 +1139,7 @@ void mme_s6a_send_ulr(mme_ue_t *mme_ue)
     else {
         ogs_info("**mme-fd**FALSE__mnc=2**\n");
     }
-    DiamId_t dest_realm = ogs_set_realm_from_imsi_bcd(mme_ue->imsi_bcd,2);
+    DiamId_t dest_realm = ogs_set_realm_from_imsi_bcd(mme_ue->imsi_bcd,3);
     ret = fd_msg_avp_new(ogs_diam_destination_realm, 0, &avp);
     ogs_assert(ret == 0);
     val.os.data = (unsigned char *)(dest_realm);
@@ -1304,7 +1304,7 @@ void mme_s6a_send_pur(mme_ue_t *mme_ue)
     else {
         ogs_info("**mme-fd**FALSE__mnc=2**\n");
     }
-    DiamId_t dest_realm = ogs_set_realm_from_imsi_bcd(mme_ue->imsi_bcd,2);
+    DiamId_t dest_realm = ogs_set_realm_from_imsi_bcd(mme_ue->imsi_bcd,3);
     ret = fd_msg_avp_new(ogs_diam_destination_realm, 0, &avp);
     ogs_assert(ret == 0);
     val.os.data = (unsigned char *)(dest_realm);
