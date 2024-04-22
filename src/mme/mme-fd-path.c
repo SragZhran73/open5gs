@@ -722,7 +722,13 @@ void mme_s6a_send_air(mme_ue_t *mme_ue,
     ogs_assert(ret == 0);
 
     /* Set the Destination-Realm AVP */
-    
+      if(mme_ue->imsi_bcd[OGS_MAX_IMSI_BCD_LEN])
+    {
+        ogs_info("**mme-fd**TRUE__mnc=3**\n");
+    }
+    else {
+        ogs_info("**mme-fd**FALSE__mnc=2**\n");
+    }
     DiamId_t dest_realm = ogs_set_realm_from_imsi_bcd(mme_ue->imsi_bcd,2);
     ret = fd_msg_avp_new(ogs_diam_destination_realm, 0, &avp);
     ogs_assert(ret == 0);
@@ -1126,7 +1132,13 @@ void mme_s6a_send_ulr(mme_ue_t *mme_ue)
     ogs_assert(ret == 0);
 
     /* Set the Destination-Realm AVP */
-    
+      if(mme_ue->imsi_bcd[OGS_MAX_IMSI_BCD_LEN])
+    {
+        ogs_info("**mme-fd**TRUE__mnc=3**\n");
+    }
+    else {
+        ogs_info("**mme-fd**FALSE__mnc=2**\n");
+    }
     DiamId_t dest_realm = ogs_set_realm_from_imsi_bcd(mme_ue->imsi_bcd,2);
     ret = fd_msg_avp_new(ogs_diam_destination_realm, 0, &avp);
     ogs_assert(ret == 0);
@@ -1285,6 +1297,13 @@ void mme_s6a_send_pur(mme_ue_t *mme_ue)
 
     /* Set the Destination-Realm AVP */
 
+    if(mme_ue->imsi_bcd[OGS_MAX_IMSI_BCD_LEN])
+    {
+        ogs_info("**mme-fd**TRUE__mnc=3**\n");
+    }
+    else {
+        ogs_info("**mme-fd**FALSE__mnc=2**\n");
+    }
     DiamId_t dest_realm = ogs_set_realm_from_imsi_bcd(mme_ue->imsi_bcd,2);
     ret = fd_msg_avp_new(ogs_diam_destination_realm, 0, &avp);
     ogs_assert(ret == 0);
